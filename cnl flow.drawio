@@ -1,0 +1,150 @@
+<mxfile host="Electron" modified="2024-09-26T11:51:09.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="xsD72bHcuvAHc2JQoalB" version="21.2.8" type="device">
+  <diagram name="Triply UI workflow" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="2703" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="10" y="670" width="1770" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="730" y="40" width="520" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="720" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-8" value="Internal (with UI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="370" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="40" width="530" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-10" value="External (headless)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="53.75" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-11" value="/UWV/Combined/0.0.1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="270" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-12" value="/CNL/CompetentNL/0.0.1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-13" value="/UWV/CompetentNL_UWV/0.0.1&lt;span data-teams=&quot;true&quot;&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="205" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uqr2HBx9YI0TVzt-5bNy-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-17" value="Internally users edit this dataset using the Triply UI which auto increments the version number on making a save action?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="147.5" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-18" value="This data is externally sourced and manually assigned a version when imported?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="630" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-19" value="Generate release" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="48.75" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqr2HBx9YI0TVzt-5bNy-20" target="Uqr2HBx9YI0TVzt-5bNy-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-20" value="/UWV/Combined/0.0.1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="310" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-22" value="Subset of metadata gets removed at this stage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-23" value="Uses own version number or highest of uwv, uwv-cnl and cnl-sbb or combined/custom versioning?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="475" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-24" value="Metadata containing owl:versionInfo and dct:modified and dct:createdAt is maintained through all combined and seperated instances" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="635" y="696.25" width="440" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-26" value="Comparisons can be made directly between 2 versioned graphs to get a detailed summary of changes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="550" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-28" value="/CNL/&lt;br&gt;CompetentNL_SBB/0.0.1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-29" value="Remove opleiding data (subset of CNL-UWV) for combined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-31" value="Editable in Triply UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-38" value="/UWV/CompetentNL_UWV" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="210" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-46" value="/CNL/CompetentNL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="870" y="410" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-47" value="/CNL/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CompetentNL_SBB" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="870" y="480" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-52" value="Sync service checks for new release and if new release found transfers Combined db and its versioned counterpart to the headless instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="141.25" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-54" value="/UWV/Combined" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="460" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-61" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="110" as="sourcePoint" />
+            <mxPoint x="400" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="560" />
+              <mxPoint x="50" y="560" />
+              <mxPoint x="60" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-62" value="Auto generated each time a dataset version changes?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="205" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-66" value="/UWV/Combined" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="290" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-67" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1185" y="162.5" as="sourcePoint" />
+            <mxPoint x="1185" y="162.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1175" y="612.5" />
+              <mxPoint x="835" y="612.5" />
+              <mxPoint x="845" y="162.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-68" value="To get a change from previous versions metadata needs to be compared in sparql query using versionInfo or lastModified" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1465" y="671.25" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-70" value="Services" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.services;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="133.75" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-71" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1685" y="120" as="sourcePoint" />
+            <mxPoint x="1685" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1685" y="220" />
+              <mxPoint x="1345" y="220" />
+              <mxPoint x="1345" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-72" value="&lt;ul&gt;&lt;li&gt;On generation of release create unversioned graphs of the latest version of all graphs&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Move versioning data of graph into metadata&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;An option between an internal and external release must be available&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="83.75" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqr2HBx9YI0TVzt-5bNy-74" value="Update graph version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="107.5" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hPtHXUA3a1mzffX0kNxO-1" value="Open Technical questions:&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;ol style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;At what rate should the sync service poll? 1 hour default, configurable&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;How to query through sparql the differences between two versioned graphs?&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;What is the complete set of metadata included from the UI?&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;Which metadata must be removed when combined graph is created? All personal information&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;Which triples need to be removed when combined dataset is created? competentnl-opleiding, subject to change in future versions&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;Which triples need to be created when versioned graph becomes unversioned?&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;For the headless version do we only want to see released versions of the combined graph or all versions?&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;internal and external url names need to be decided for internal and external instances.&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;How many versions must be stored? one major release backwards&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="435" y="770" width="920" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hPtHXUA3a1mzffX0kNxO-2" value="Process description:&lt;br&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;ol style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;There are three data sets that need to be managed in the Triply UI internally by users, these datasets must be versioned and at least x versions of the dataset must be stored. Additionally the user must be able to change the version of the graph after changes are made.&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;When UWV, UWV-CNL or CNL-SBB undergo a version change a new combined graph must be generated from these 3 datasets, at this stage some triples need to be removed from the dataset, the combined graph must be versioned based on the versions of UWV, UWV-CNL and CNL-SBB&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;There must exist a button/ui element to allow the generation of a release. When a release is generated unversioned graphs of all versioned graphs need to be created of all existing datasets (UWV, UWV-CNL, CNL-SBB and COMBINED),&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;these graphs must replace any previous unversioned graphs and contain version info in metadata.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;There must exist a sync process on the headless environment which periodically polls the internal server to check if there is any new graphs available (specifically the unversioned combined graph), if a new graph is found both the new graph as well as any new queries need to be transferred to the headless instance.&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;The headless instance must contain the latest combined graph as well as historically released versions (up to x) which must all be accessible via rest and sparql api.&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="980" width="2160" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
